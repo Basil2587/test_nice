@@ -1,2 +1,6 @@
 flask
 flask_dropzone
+opencv-python
+opencv-contrib-python
+matplotlib
+Pillow
