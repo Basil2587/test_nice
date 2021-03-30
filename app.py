@@ -50,8 +50,6 @@ def image_size():
         cv2.RETR_EXTERNAL,
         cv2.CHAIN_APPROX_NONE
         )
-    rgb = cv2.cvtColor(image_load, cv2.COLOR_BGR2RGB)
-    cv2.drawContours(rgb, cnt, -1, (0, 255, 0), 2)
     contour_max = str(len(cnt))
     name = path_file.name
     width = image.size[0]  # Определяем ширину
